@@ -1,0 +1,8 @@
+::1 - - [13/Aug/2020:06:35:23 +0930] "GET / HTTP/1.1" 200 543 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.125 Safari/537.36"
+::1 - - [13/Aug/2020:06:35:23 +0930] "GET /favicon.ico HTTP/1.1" 200 15754 "http://localhost/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.125 Safari/537.36"
+::1 - - [13/Aug/2020:06:35:52 +0930] "GET / HTTP/1.1" 200 535 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.125 Safari/537.36"
+::1 - - [13/Aug/2020:06:35:52 +0930] "GET /favicon.ico HTTP/1.1" 200 15754 "http://localhost/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.125 Safari/537.36"
+::1 - - [13/Aug/2020:06:36:09 +0930] "GET / HTTP/1.1" 200 453 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.125 Safari/537.36"
+::1 - - [13/Aug/2020:06:36:09 +0930] "GET /favicon.ico HTTP/1.1" 200 15708 "http://localhost/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.125 Safari/537.36"
+::1 - - [13/Aug/2020:06:36:13 +0930] "GET / HTTP/1.1" 200 452 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.125 Safari/537.36"
+::1 - - [13/Aug/2020:06:36:14 +0930] "GET /favicon.ico HTTP/1.1" 200 15708 "http://localhost/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.125 Safari/537.36"
