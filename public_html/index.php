@@ -5,7 +5,7 @@
 <head>
     <meta charset="utf-8">
 
-    <title>The HTML5 Herald</title>
+    <title>PHP Exercises</title>
     <meta name="description" content="MDBootstraped">
     <meta name="author" content="Raja">
 
@@ -34,27 +34,31 @@
 </head>
 
 <body>
-
-    <div class="container-fluid aqua-gradient text-center pt-4">
-        <?php
-        echo '<h1 class="display-1 text-black-50">LAMP <i class="fas fa-server grey-text"></i>   Ubuntu <i class="fab fa-ubuntu red-text"></i></h1><br>';
-        ?>
+    <div class="box blue-gradient" style="--r1:130%;--r2:71.5%">
+        <div class="container-fluid text-center pt-5">
+            <?php
+            // echo '<h1 class="display-3 text-black-50">LAMP <i class="fas fa-server grey-text"></i>   Ubuntu <i class="fab fa-ubuntu red-text"></i></h1><br>';
+            echo '<h1 class="display-3 text-white ">LAMP <i class="fas fa-server grey-text"></i>   Ubuntu <i class="fab fa-ubuntu red-text"></i></h1><br>';
+            ?>
+        </div>
     </div>
 
     <div class="container cloudy-knoxville-gradient text-black-50 z-depth-1-half my-5 p-5">
-        <div class="container-fluid text-center border border-light rounded py-3 mb-5">
-            <h3><b><i class="far fa-times-circle red-text"></i> XAMPP <i class="fab fa-windows indigo-text"></i></b></h3><br>
-            <h3><b><i class="far fa-times-circle red-text"></i> Docker <i class="fab fa-docker cyan-text"></i></b></h3><br>
-            <h3><b><i class="far fa-check-circle green-text"></i> WSL2 <i class="fab fa-linux amber-text"></i></b></h3>
-        </div>
 
+        <h3><i class="fas fa-angle-right"></i></h3>
+        <h4><b><i class="far fa-times-circle red-text"></i> XAMPP <i class="fab fa-windows indigo-text"></i></b></h3><br>
+        <h4><b><i class="far fa-times-circle red-text"></i> Docker <i class="fab fa-docker cyan-text"></i></b></h3><br>
+        <h4><b><i class="far fa-check-circle green-text"></i> WSL2 <i class="fab fa-linux amber-text"></i></b></h3><br><br><br>
+
+
+        <h3><i class="fas fa-angle-right"></i></h3>
         <h3 class="text-monospace"><a href="phpinfo.php">phpinfo();</a></h3>
-
         <h6>Just plain LAMP stack apache site running in Ubuntu,
             similar to plain LAMP site running in XAMPP. Site is running as if it is
             hosted in a AWS EC2 Linux VM.</h6><br><br>
 
-        <h4 style="color:red"> C:\Users\\000930322\Downloads\PHP\PHP Summary.docx </h4>
+        <h3><i class="fas fa-angle-right"></i></h3>
+        <h4 style="color:red"><b>C:\Users\\000930322\Downloads\PHP\PHP Summary.docx</b></h4>
         <h6>Has info on steps to create a simple exercise, CLI commands, troubleshooting</h6><br><br>
 
     </div>

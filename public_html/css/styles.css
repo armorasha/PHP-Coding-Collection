@@ -1,0 +1,18 @@
+.box {
+    /* From: https://stackoverflow.com/questions/60174146/how-to-implement-curve-background-in-css */
+    height:300px;
+    /* background: url(https://images.unsplash.com/photo-1581362508717-f542c1ecf295?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1651&q=80) center/cover; */
+    -webkit-mask:
+      radial-gradient(var(--r1,100%) var(--r2,50%) at top   ,white 79.5%,transparent 80%) top left,
+      radial-gradient(var(--r1,100%) var(--r2,50%) at bottom,transparent 79.5%,white 80%) top center,
+      radial-gradient(var(--r1,100%) var(--r2,50%) at top   ,white 79.5%,transparent 80%) top right;
+    mask:
+      radial-gradient(var(--r1,100%) var(--r2,50%) at top   ,white 79.5%,transparent 80%) top left,
+      radial-gradient(var(--r1,100%) var(--r2,50%) at bottom,transparent 79.5%,white 80%) top center,
+      radial-gradient(var(--r1,100%) var(--r2,50%) at top   ,white 79.5%,transparent 80%) top right;
+     /* adjust the 150% to control the covered area, the bigger the value the bigger the area will be*/
+    -webkit-mask-size:33.4% 150%;
+    -webkit-mask-repeat:no-repeat;
+    mask-size:33.4% 150%;
+    mask-repeat:no-repeat;
+  }
