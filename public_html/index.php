@@ -14,4 +14,11 @@ echo '<h3 style="color:red"> C:\Users\\000930322\Downloads\PHP\PHP Summary.docx 
 <h2><u><b>Exercises</b></u></h2>
 
 <a href="0_misc_exercises">0_misc_exercises</a><br>
-<a href="1_class_object_exercise">1_class_object_exercise</a><br>
+<a href="1_class_object_exercise">1_class_object_exercise</a><br><br><br>
+
+<h2><u><b>PHPUnit Testing</b></u></h2>
+<img src="img/phpunit composer tree 2.jpg" alt="Girl in a jacket" width="200" height="auto"><br>
+<a href="2_composer_phpunit">2_composer_phpunit - Classes</a>
+<p><u>2_composer_phpunit - Tests</u> in <b>tests folder</b> outside public_html. Not reachable in localhost. More details at:</p>
+<p style="color:red"> C:\Users\\000930322\Downloads\PHP\PHP Summary.docx </p><br>
+
