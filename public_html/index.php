@@ -60,15 +60,15 @@
                     </div>
                     <div class="column mx-auto">
                         <h1 class="card-title display-3 pt-3 mb-5 font-bold"><strong>
-                                <i class="fab fa-linux red-text fa-4x"></i></strong></h1>
+                                <i class="fab fa-linux red-text fa-3x"></i></strong></h1>
                     </div>
                 </div>
 
                 <div class="row">
-                    <a href="#info" class="btn btn-outline-white btn-lg mx-auto mt-5">
+                    <a href="#info" class="btn btn-outline-white btn-lg mx-auto mt-2">
                     <!-- <a href="#info" class="btn juicy-peach-gradient btn-lg mx-auto mt-5"> -->
                         <h4 class="my-auto text-white">
-                            <strong><i class="fas fa-angle-double-right"></i> Project Info </strong>
+                            <strong><i class="fas fa-angle-double-right"></i> Project Info&emsp;</strong>
                         </h4>
                     </a>
                 </div>
@@ -108,9 +108,9 @@
     </div>
 
 
-    <div class="container-fluid cloudy-knoxville-gradient z-depth-5 p-5 my-5">
+    <div id="exercises" class="container-fluid cloudy-knoxville-gradient z-depth-5 p-5 my-5">
         <div class="container juicy-peach-gradient z-depth-5 p-5">
-            <div id="exercises">
+            <div >
                 <h2 class="display-3 text-danger"><i class="far fa-file-code"></i> Exercises</h2>
                 <h3 class="text-black-50">
                     Most coding exercises will be here.
