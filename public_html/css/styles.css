@@ -1,6 +1,15 @@
+html {
+  scroll-behavior: smooth;
+}
+
 .backy{
   background: url('/img/codes1.jpg') center/cover;
   /* margin-bottom: -4rem !important; */
+}
+
+.jumbotron {
+  background-size: cover;
+  background-position: center center;
 }
 
 
@@ -28,6 +37,7 @@
     -webkit-mask-repeat:no-repeat;
     mask-size:33.4% 160%;
     mask-repeat:no-repeat;
+    margin-bottom: -5rem !important;
 
   }
 
