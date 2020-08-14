@@ -36,6 +36,7 @@
 <body>
 
     <div class="backy pb-5">
+        <div class="mask backy1 rgba-gradient">
         <div class="box-wrap sticky-top" style="z-index:9998;">
             <div class="box blue-gradient" style="--r1:130%;--r2:71.5%;">
                 <div class="container-fluid text-center pt-5 ">
@@ -64,8 +65,21 @@
                 </div>
 
                 <div class="row">
-                    <a href="#exercises" class="btn btn-outline-white btn-lg  mx-auto mt-5">
-                        <i class="fas fa-clone left"></i> View exercises</a>
+                    <a href="#info" class="btn btn-outline-white btn-lg mx-auto mt-5">
+                    <!-- <a href="#info" class="btn juicy-peach-gradient btn-lg mx-auto mt-5"> -->
+                        <h4 class="my-auto text-white">
+                            <strong><i class="fas fa-angle-double-right"></i> Project Info </strong>
+                        </h4>
+                    </a>
+                </div>
+
+                <div class="row">
+                    <!-- <a href="#exercises" class="btn btn-outline-white btn-lg mx-auto mt-5"> -->
+                    <a href="#exercises" class="btn juicy-peach-gradient btn-lg mx-auto mt-5">
+                        <h4 id="info" class="my-auto text-info">
+                            <strong><i class="fas fa-clone left"></i> View exercises</strong>
+                        </h4>
+                    </a>
                 </div>
             </div>
         </div>
@@ -82,7 +96,7 @@
                 hosted in a AWS EC2 Linux VM.</h6><br><br>
 
             <h3><i class="fas fa-angle-right"></i></h3>
-            <h4 style="color:red"><b>C:\Users\\000930322\Downloads\PHP\PHP Summary.docx</b></h4>
+            <h3><code>C:\Users\000930322\Downloads\PHP\PHP Summary.docx </code></h3>
             <h6>Has info on steps to create a simple exercise, CLI commands, troubleshooting</h6>
         </div>
 
@@ -91,32 +105,71 @@
         </div>
 
     </div>
+    </div>
 
 
-    <div class="container-fluid juicy-peach-gradient z-depth-5 p-5">
-        <div id="exercises">
-            <h2 class="display-3"><b><i class="fas fa-file-code"></i> Exercises</b></h2>
+    <div class="container-fluid cloudy-knoxville-gradient z-depth-5 p-5 my-5">
+        <div class="container juicy-peach-gradient z-depth-5 p-5">
+            <div id="exercises">
+                <h2 class="display-3 text-danger"><i class="far fa-file-code"></i> Exercises</h2>
+                <h3 class="text-black-50">
+                    Most coding exercises will be here.
+                </h3>
 
-            <h3>
+                <div class="my-5">
+                <h3 class="text-black-50">
+                    <ul class="list-style">
+                        <li><a href="0_misc_exercises">Individuals</a><br></li>
+                        <li><a href="1_class_object_exercise">Classes & Objects</a></li>
+                    </ul>
+                </h3>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="container juicy-peach-gradient z-depth-5 p-5 my-5">
+            <h2 class="display-3 text-danger"><i class="far fa-file-code"></i> Testing</h2>
+                <h3 class="text-black-50">
+                    Unit testing with PHPUnit + Composer.
+                </h3>
+            
+
+            <div class="my-5">
+            <h3 class="text-black-50">
                 <ul class="list-style">
-                    <li><a href="0_misc_exercises">Mixed</a><br></li>
-                    <li><a href="1_class_object_exercise">Classes & Objects</a></li>
+                    <li><a href="2_composer_phpunit">Composer + PHPUnit : Classes</a><br></li>
+                    <li><b>Composer + PHPUnit : Tests</b> in <code>/tests</code> folder outside <code>/public_html</code>
+                        folder, not reachable in <b>localhost</b>.
+                    </li>
                 </ul>
             </h3>
+            </div>
+
+            <div class="view rounded-lg col-md-4 my-5">
+                <figure class="col-md-12 m-0 rounded-lg">
+                    <a href="img/phpunit composer tree 2.jpg" class="rounded-lg" data-size="1600x1067">
+                        <img src="img/phpunit composer tree 2.jpg" class="img-fluid rounded-lg z-depth-1" width="300" height="auto">
+                        <div class="mask peach-gradient-rgba  flex-center waves-effect waves-light rounded-lg">
+                            <h3 class="white-text"><strong><i class="fas fa-angle-right"></i> tree</strong></h3>
+                        </div>
+                    </a>
+                </figure>
+            </div>
+
+
+            <h3 class="text-black-50">
+                <ul class="list-style">
+                    <li><a href="2_composer_phpunit">Composer + PHPUnit : Classes</a><br></li>
+                    <li><b>Composer + PHPUnit : Tests</b> in <code>/tests</code> folder outside <code>/public_html</code>
+                        folder, not reachable in <b>localhost</b>.
+                    </li>
+                </ul>
+                More info on this exercise at:
+                <code>C:\Users\000930322\Downloads\PHP\PHP Summary.docx </code>
+            </h3>
+
         </div>
-
-        <h2><b><i class="far fa-file-code"></i> PHPUnit Testing</b></h2>
-        <!--Zoom effect-->
-        <div class="view overlay zoom">
-            <img src="img/phpunit composer tree 2.jpg" class="img-fluid z-depth-1" width="200" height="auto"><br>
-        </div>
-        <a href="2_composer_phpunit">2_composer_phpunit - Classes</a>
-        <p><b>2_composer_phpunit - Tests</b> in <b>tests folder</b> outside public_html.
-            Not reachable in localhost. More info on this exercise at:</p>
-        <p style="color:red"> C:\Users\\000930322\Downloads\PHP\PHP Summary.docx </p><br>
-
-        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-
     </div>
 
     <script src="js/scripts.js"></script>
