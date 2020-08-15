@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500;600;700;900&display=swap');
+
 html {
   scroll-behavior: smooth;
 }
@@ -5,33 +7,6 @@ html {
 .btn{
     /* for pill shaped buttons in a tags*/
   border-radius: 500px;
-}
-
-
-.backy{
-  background: url('/img/codes1.jpg') center/cover;
-  /* margin-bottom: -4rem !important; */
-  /* background-color: rgba(0,0,0,0.5); */
-  /* z-index: 2; */
-}
-
-
-.jumbotron {
-  background-size: cover;
-  background-position: center center;
-}
-
-.backy1{
-  margin-bottom: -3.5rem !important;
-}
-
-
-.rgba-gradient {
-  background: -moz-linear-gradient(45deg, rgba(42, 27, 161, 0.4), rgba(29, 210, 177, 0.4) 100%);
-  background: -webkit-linear-gradient(45deg, rgba(42, 27, 161, 0.4), rgba(29, 210, 177, 0.4) 100%);
-  background: -webkit-gradient(linear, 45deg, from(rgba(42, 27, 161, 0.4)), to(rgba(29, 210, 177, 0.4)));
-  background: -o-linear-gradient(45deg, rgba(42, 27, 161, 0.4), rgba(69, 128, 117, 0.4) 100%);
-  background: linear-gradient(to 45deg, rgba(42, 27, 161, 0.4), rgba(29, 210, 177, 0.4) 100%);
 }
 
 .box {
@@ -60,3 +35,37 @@ html {
     filter: drop-shadow(-1px 6px 3px rgba(50, 50, 50, 0.5));
   }
   
+  .backy{
+    background: url('/img/codes1.jpg') center/cover;
+  }
+  
+  .backy1{
+    margin-bottom: -3.5rem !important;
+  }
+  
+  .jumbotron {
+    background-size: cover;
+    background-position: center center;
+  }
+
+  .ombre-wsl2{
+    /* background: -webkit-linear-gradient(0deg, #eee, #ffe0b2); */
+    background: -webkit-linear-gradient(0deg, #1565c0, #0097a7);
+
+    /* background: -webkit-linear-gradient(0deg, rgba(255, 236, 210, 1), rgba(252, 182, 159, 1) 100%); */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  
+  .rgba-gradient {
+    background: -moz-linear-gradient(45deg, rgba(42, 27, 161, 0.4), rgba(29, 210, 177, 0.4) 100%);
+    background: -webkit-linear-gradient(45deg, rgba(42, 27, 161, 0.4), rgba(29, 210, 177, 0.4) 100%);
+    background: -webkit-gradient(linear, 45deg, from(rgba(42, 27, 161, 0.4)), to(rgba(29, 210, 177, 0.4)));
+    background: -o-linear-gradient(45deg, rgba(42, 27, 161, 0.4), rgba(69, 128, 117, 0.4) 100%);
+    background: linear-gradient(to 45deg, rgba(42, 27, 161, 0.4), rgba(29, 210, 177, 0.4) 100%);
+  }
+
+  .page-block {
+    border-radius: 20px;
+  }
