@@ -35,6 +35,7 @@
 
 <body>
 
+    <!-- background of code jpg -->
     <div class="backy pb-5">
         <div class="mask backy1 rgba-gradient">
             <div class="box-wrap sticky-top" style="z-index:9998;">
@@ -48,25 +49,22 @@
                 </div>
             </div>
 
+            <!-- jumbotron -->
             <div class="jumbotron card card-image mb-5" style="background-image: url('img/gradient1.jpg');">
                 <div class="text-white text-center px-4">
                     <div class="row">
                         <div class="column ml-5">
                             <h1 class="card-title display-3 pt-3 mb-5 ombre-wsl2">
-                            <strong>Windows Subsystem for Linux 2</strong></h1>
-<!-- 
-                            <h1 class="card-title display-4 pt-3 mb-5 font-bold blue-text" style="font-family: 'Roboto Slab', serif;">              
-                                <strong>when</strong>
-                            </h1> -->
+                                <strong>Windows Subsystem for Linux 2</strong></h1>
 
-                            <h2 class="card-title h1-responsive pt-3 mb-5 font-bold blue-text" style="font-family: 'Roboto Slab', serif;">              
+                            <h2 class="card-title h1-responsive pt-3 mb-5 font-bold blue-text" style="font-family: 'Roboto Slab', serif;">
                                 <strong>
-                                   <i class="fab fa-windows teal-text"></i> XAMPP<i class=""> is too less</i>
+                                    <i class="fab fa-windows teal-text"></i> XAMPP<i class=""> is too less</i>
                                     &ensp;&&&ensp; <i class="fab fa-docker teal-text"></i> Docker<i> is too much</i>
                                 </strong>
                             </h2>
-
                         </div>
+
                         <div class="column mx-auto">
                             <h1 class="card-title display-3 pt-3 mb-5 font-bold"><strong>
                                     <i class="fab fa-linux red-text fa-3x"></i></strong></h1>
@@ -75,7 +73,6 @@
 
                     <div class="row">
                         <a href="#info" class="btn btn-outline-white btn-lg mx-auto mt-2">
-                            <!-- <a href="#info" class="btn juicy-peach-gradient btn-lg mx-auto mt-5"> -->
                             <h4 class="my-auto text-white">
                                 <strong><i class="fas fa-angle-double-right"></i> Project Info&emsp;</strong>
                             </h4>
@@ -83,7 +80,6 @@
                     </div>
 
                     <div class="row">
-                        <!-- <a href="#exercises" class="btn btn-outline-white btn-lg mx-auto mt-5"> -->
                         <a href="#exercises" class="btn juicy-peach-gradient btn-lg mx-auto mt-5">
                             <h4 id="info" class="my-auto text-info">
                                 <strong><i class="fas fa-clone left"></i> View exercises</strong>
@@ -93,10 +89,12 @@
                 </div>
             </div>
 
+            <!-- spacer  -->
             <div class="spacer invisible my-2">
                 <br><br><br>
             </div>
 
+            <!-- page-block for info -->
             <div class="container cloudy-knoxville-gradient page-block text-black-50 z-depth-1-half p-5">
                 <h3><i class="fas fa-angle-right"></i></h3>
                 <h3 class="text-monospace"><a href="phpinfo.php">phpinfo();</a></h3>
@@ -112,11 +110,10 @@
             <div class="spacer invisible my-2">
                 <br><br><br>
             </div>
-
         </div>
     </div>
 
-
+    <!-- page-block for exercises -->
     <div id="exercises" class="container-fluid cloudy-knoxville-gradient p-5">
         <div class="container page-block juicy-peach-gradient z-depth-5 p-5">
             <div>
@@ -133,7 +130,6 @@
                         </ul>
                     </h3>
                 </div>
-
             </div>
         </div>
 
@@ -142,7 +138,6 @@
             <h3 class="text-black-50">
                 Unit testing with PHPUnit + Composer.
             </h3>
-
 
             <div class="my-5">
                 <h3 class="text-black-50">
@@ -181,6 +176,7 @@
         </div>
     </div>
 
+    <!-- footer -->
     <div class="footer-copyright py-3 text-center z-depth-1">
         © <?php echo date("Y"); ?> Developer:
         <a href="https://github.com/armorasha">
@@ -188,6 +184,7 @@
         </a>
     </div>
 
+    <!-- javascript -->
     <script src="js/scripts.js"></script>
 </body>
 

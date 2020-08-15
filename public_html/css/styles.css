@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500;600;700;900&display=swap');
 
 html {
+  /* for smooth scrolls */
   scroll-behavior: smooth;
 }
 
@@ -10,6 +11,7 @@ html {
 }
 
 .box {
+    /* For svg curve on top navbar */
     /* From: https://stackoverflow.com/questions/60174146/how-to-implement-curve-background-in-css */
     height:250px;
     /* background: url(https://images.unsplash.com/photo-1581362508717-f542c1ecf295?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1651&q=80) center/cover; */
@@ -32,14 +34,17 @@ html {
   }
 
   .box-wrap {
+    /* Shadown for svg curve */
     filter: drop-shadow(-1px 6px 3px rgba(50, 50, 50, 0.5));
   }
   
   .backy{
+    /* background for top div above exercises div */
     background: url('/img/codes1.jpg') center/cover;
   }
   
   .backy1{
+    /* need this for positioning the push of divs while scroll up */
     margin-bottom: -3.5rem !important;
   }
   
@@ -51,14 +56,13 @@ html {
   .ombre-wsl2{
     /* background: -webkit-linear-gradient(0deg, #eee, #ffe0b2); */
     background: -webkit-linear-gradient(0deg, #1565c0, #0097a7);
-
     /* background: -webkit-linear-gradient(0deg, rgba(255, 236, 210, 1), rgba(252, 182, 159, 1) 100%); */
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
   
-  
   .rgba-gradient {
+    /* For gradient on code jpg */
     background: -moz-linear-gradient(45deg, rgba(42, 27, 161, 0.4), rgba(29, 210, 177, 0.4) 100%);
     background: -webkit-linear-gradient(45deg, rgba(42, 27, 161, 0.4), rgba(29, 210, 177, 0.4) 100%);
     background: -webkit-gradient(linear, 45deg, from(rgba(42, 27, 161, 0.4)), to(rgba(29, 210, 177, 0.4)));
@@ -67,5 +71,6 @@ html {
   }
 
   .page-block {
+    /* for rounding the exercise page-blocks */
     border-radius: 20px;
   }
