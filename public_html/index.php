@@ -113,6 +113,7 @@
         </div>
     </div>
 
+    <!-- start of page-blocks for exercises -->
     <!-- page-block for exercises -->
     <div id="exercises" class="container-fluid cloudy-knoxville-gradient p-5">
         <div class="container page-block juicy-peach-gradient z-depth-5 p-5">
@@ -133,6 +134,7 @@
             </div>
         </div>
 
+        <!-- page-block for phpunit -->
         <div class="container page-block juicy-peach-gradient z-depth-5 p-5 my-5">
             <h2 class="display-3 text-danger"><i class="far fa-file-code"></i> Testing</h2>
             <h3 class="text-black-50">
@@ -161,19 +163,33 @@
                 </figure>
             </div>
 
-
             <h3 class="text-black-50">
-                <ul class="list-style">
-                    <li><a href="2_composer_phpunit">Composer + PHPUnit : Classes</a><br></li>
-                    <li><b>Composer + PHPUnit : Tests</b> in <code>/tests</code> folder outside <code>/public_html</code>
-                        folder, not reachable in <b>localhost</b>.
-                    </li>
-                </ul>
                 More info on this exercise at:
                 <code>C:\Users\000930322\Downloads\PHP\PHP Summary.docx </code>
             </h3>
-
         </div>
+
+        <!-- page-block for composer autoloader -->
+        <div class="container page-block juicy-peach-gradient z-depth-5 p-5">
+            <div>
+                <h2 class="display-3 text-danger"><i class="far fa-file-code"></i> Autoloader</h2>
+                <h3 class="text-black-50">
+                    How to use composer autoloader.
+                </h3>
+
+                <div class="my-5">
+                    <h3 class="text-black-50">
+                        <ul class="list-style">
+                            <li><a href="3_composer_autoload">Autoloader</a><br></li>
+                            <li><a href="1_class_object_exercise">Classes & Objects</a></li>
+                        </ul>
+                    </h3>
+                </div>
+            </div>
+        </div>
+
+
+
     </div>
 
     <!-- footer -->
