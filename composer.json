@@ -1,15 +1,17 @@
 {
     "autoload": {
         "psr-4": {
-            "Coding_Exercises\\": ["public_html/2_composer_phpunit/"]
+            "Coding_Exercises\\": "public_html/2_composer_phpunit/"
         }
     },
+    
 
     "autoload-dev": {
-        "psr-4": {
-            "Coding_Exercises\\": ["tests/"]
-        }
+        "classmap": [
+            "public_html/2_composer_phpunit/"
+        ]
     },
+
 
 
     "require": {
