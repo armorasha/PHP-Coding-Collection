@@ -42,8 +42,8 @@
                 <div class="box blue-gradient" style="--r1:130%;--r2:71.5%;">
                     <div class="container-fluid text-center pt-5" style="font-family: 'Roboto Slab', serif;">
                         <?php
-                        echo '<h1 class="display-3 text-white">LAMP <i class="fas fa-server grey-text"></i>   
-                    Ubuntu <i class="fab fa-ubuntu red-text"></i> WSL2</h1><br>';
+                        echo '<h1 class="display-3 text-white">L•A•M•P <i class="fab fa-buffer cyan-text"></i>   
+                    Ubuntu WSL2 <i class="fab fa-ubuntu red-text"></i></h1><br>';
                         ?>
                     </div>
                 </div>
@@ -53,19 +53,23 @@
             <div class="jumbotron card card-image mb-5" style="background-image: url('img/gradient1.jpg');">
                 <div class="text-white text-center px-4">
                     <div class="row">
-                        <div class="column ml-5">
+                        <div class="column col-9 ml-5">
                             <h1 class="card-title display-3 pt-3 mb-5 ombre-wsl2">
                                 <strong>Windows Subsystem for Linux 2</strong></h1>
 
-                            <h2 class="card-title h1-responsive pt-3 mb-5 font-bold blue-text" style="font-family: 'Roboto Slab', serif;">
+                            <h2 class="card-title h1-responsive font-bold blue-text mb-4" style="font-family: 'Roboto Slab', serif;">
                                 <strong>
                                     <i class="fab fa-windows teal-text"></i> XAMPP<i class=""> is too less</i>
-                                    &ensp;&&&ensp; <i class="fab fa-docker teal-text"></i> Docker<i> is too much</i>
+                                    <i class="fab fa-docker teal-text"></i> Docker<i> is too much</i>
                                 </strong>
                             </h2>
+                            <p class="h5-responsive font-bold blue-text mb-5" style="font-family: 'Roboto Slab', serif;">
+                                XAMPP lacks replication of Linux production server environments
+                                and Docker is an overkill for non-complex web apps.
+                            </p>
                         </div>
 
-                        <div class="column mx-auto">
+                        <div class="column col mx-auto">
                             <h1 class="card-title display-3 pt-3 mb-5 font-bold"><strong>
                                     <i class="fab fa-linux red-text fa-3x"></i></strong></h1>
                         </div>
