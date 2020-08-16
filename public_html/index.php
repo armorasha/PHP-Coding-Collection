@@ -152,6 +152,7 @@
                         <li><b>Composer + PHPUnit : Tests</b> in <code>/tests</code> folder outside
                             <code>/public_html</code> folder, not reachable in <code>localhost</code>
                         </li>
+
                     </ul>
                 </h3>
             </div>
@@ -184,8 +185,10 @@
                 <div class="my-5">
                     <h3 class="text-black-50">
                         <ul class="list-style">
-                            <li><a href="3_composer_autoload">Autoloader</a><br></li>
-                            <li><a href="1_class_object_exercise">Classes & Objects</a></li>
+                            <li><a href="3_composer_autoload">Autoloader: Faker</a><br></li>
+                            <li><b>Autoloader: PHPUnit tests</b> <code>"autoload-dev": </code> in <code>composer.json</code> file outside
+                                <code>/public_html</code> folder, not reachable in <code>localhost</code>
+                            </li>
                         </ul>
                     </h3>
                 </div>
