@@ -1,13 +1,13 @@
 {
     "autoload": {
         "psr-4": {
-            "Coding_Exercises\\": "public_html/2_composer_phpunit/"
+            "Coding_Exercises\\": "public_html/2_classes_folder/"
         }
     },
     
     "autoload-dev": {
         "classmap": [
-            "public_html/2_composer_phpunit/"
+            "public_html/2_classes_folder/"
         ]
     },
 

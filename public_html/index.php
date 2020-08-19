@@ -35,6 +35,18 @@
 
 <body>
 
+    <?php
+    // autoloading all the user-defines classes for the project
+    require_once __DIR__ . '/../vendor/autoload.php';
+
+    // if (!class_exists('Coding_Exercises\AddNums'))
+    //     die('There is no hope!');
+
+    // if (class_exists('Coding_Exercises\AddNums'))
+    //     echo ('There is hope!');
+
+    ?>
+
     <!-- background of code jpg -->
     <div class="backy pb-5">
         <div class="mask backy1 rgba-gradient">
@@ -148,7 +160,7 @@
             <div class="my-5">
                 <h3 class="text-black-50">
                     <ul class="list-style">
-                        <li><a href="2_composer_phpunit">Composer + PHPUnit : Classes</a><br></li>
+                        <li><a href="2_classes_folder">Composer + PHPUnit : Classes</a><br></li>
                         <li><b>Composer + PHPUnit : Tests</b> in <code>/tests</code> folder outside
                             <code>/public_html</code> folder, not reachable in <code>localhost</code>
                         </li>
@@ -179,22 +191,24 @@
             <div>
                 <h2 class="display-3 text-danger"><i class="far fa-file-code"></i> Autoloader</h2>
                 <h3 class="text-black-50">
-                    Composer does two things in projects using <code>composer.json</code><br>
+                    Composer does two things using <code>composer.json</code><br>
                     1) <code>"require":</code> Manage third party libraries<br>
-                    2) <code>"autoload":</code> autoload user-defined classes in project.
+                    2) <code>"autoload":</code> Autoload user-defined classes for<br>
+                    (a) project itself and/or <br>(b) phpunit testing.
                 </h3>
 
                 <div class="my-5">
                     <h3 class="text-black-50">
                         <ul class="list-style">
-                            <li><a href="3_composer_autoload">Composer - 1) Manage:</a> 
-                            Requiring and autoloading Faker 3rd party library in projects.<br></li>
-                            <li><b>Composer - 2a) Autoload:</b> Autoloading user-defined classes for <b>PHPUnit</b> to run tests.
-                            <code>"autoload-dev": </code> in <code>composer.json</code> file outside
-                                <code>/public_html</code> folder, not reachable in <code>localhost</code>
+                            <li><a href="3_composer_autoload/faker_exercise.php">Composer - 1) Manage:</a>
+                                Requiring and autoloading Faker 3rd party library for a project.<br></li>
+                            <li><a href="3_composer_autoload/addnums_page.php">Composer - 2a) Autoload:</a>
+                                Using <b>Namespaces</b>, Autoloading user-defined <code>AddNums.php</code> class for the
+                                <code>addnums_page.php</code> (project itself) to run.<br></li>
+                            <li><b>Composer - 2b) Autoload:</b> Autoloading user-defined classes for <b>PHPUnit</b> to run tests.
+                                <small>(<code>composer.json</code> that has code <code>"autoload-dev": </code> is outside
+                                    <code>/public_html</code> folder, not reachable in <code>localhost</code></small>)
                             </li>
-                            <li><a href="">Composer - 2b) Autoload:</a> 
-                            Using <b>Namespaces</b>, Autoloading user-defined classes for the project to run.<br></li>
 
                         </ul>
                     </h3>
