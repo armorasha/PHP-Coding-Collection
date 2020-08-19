@@ -203,11 +203,44 @@
                                 <small>(<code>composer.json</code> that has code <code>"autoload-dev": </code> is outside
                                     <code>/public_html</code> folder, not reachable in <code>localhost</code></small>)
                             </li>
-
                         </ul>
                     </h3>
                 </div>
             </div>
+
+            <h3 class="text-black-50">
+                More info on this exercise at:
+                <code>C:\Users\000930322\Downloads\PHP\PHP Summary.docx </code>
+            </h3>
+
+        </div>
+
+
+
+        <!-- page-block for monolog -->
+        <div class="container page-block juicy-peach-gradient z-depth-5 p-5 my-5">
+            <h2 class="display-3 text-danger"><i class="far fa-file-code"></i> Logging</h2>
+            <h3 class="text-black-50">
+                Logging with Monolog + Composer.
+            </h3>
+
+            <div class="my-5">
+                <h3 class="text-black-50">
+                    <ul class="list-style">
+                        <li><a href="4_composer_monolog/log_to_console.php">Composer + Monolog:</a><br></li>
+                        <li><b>Composer + PHPUnit : Tests</b> in <code>/tests</code> folder outside
+                            <code>/public_html</code> folder, not reachable in <code>localhost</code>
+                        </li>
+
+                    </ul>
+                </h3>
+            </div>
+
+
+            <h3 class="text-black-50">
+                More info on this exercise at:
+                <code>C:\Users\000930322\Downloads\PHP\PHP Summary.docx </code>
+            </h3>
         </div>
 
 
