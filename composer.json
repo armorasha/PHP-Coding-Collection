@@ -5,7 +5,6 @@
         }
     },
     
-
     "autoload-dev": {
         "classmap": [
             "public_html/2_composer_phpunit/"

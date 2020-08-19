@@ -179,16 +179,23 @@
             <div>
                 <h2 class="display-3 text-danger"><i class="far fa-file-code"></i> Autoloader</h2>
                 <h3 class="text-black-50">
-                    How to use composer autoloader.
+                    Composer does two things in projects using <code>composer.json</code><br>
+                    1) <code>"require":</code> Manage third party libraries<br>
+                    2) <code>"autoload":</code> autoload user-defined classes in project.
                 </h3>
 
                 <div class="my-5">
                     <h3 class="text-black-50">
                         <ul class="list-style">
-                            <li><a href="3_composer_autoload">Autoloader: Faker</a><br></li>
-                            <li><b>Autoloader: PHPUnit tests</b> <code>"autoload-dev": </code> in <code>composer.json</code> file outside
+                            <li><a href="3_composer_autoload">Composer - 1) Manage:</a> 
+                            Requiring and autoloading Faker 3rd party library in projects.<br></li>
+                            <li><b>Composer - 2a) Autoload:</b> Autoloading user-defined classes for <b>PHPUnit</b> to run tests.
+                            <code>"autoload-dev": </code> in <code>composer.json</code> file outside
                                 <code>/public_html</code> folder, not reachable in <code>localhost</code>
                             </li>
+                            <li><a href="">Composer - 2b) Autoload:</a> 
+                            Using <b>Namespaces</b>, Autoloading user-defined classes for the project to run.<br></li>
+
                         </ul>
                     </h3>
                 </div>
