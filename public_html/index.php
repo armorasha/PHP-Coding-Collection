@@ -226,12 +226,16 @@
 
             <div class="my-5">
                 <h3 class="text-black-50">
+                    Logging results cannot be seen in browser in this exercise, so no links below:
                     <ul class="list-style">
-                        <li><a href="4_composer_monolog/log_to_console.php">Composer + Monolog:</a><br></li>
-                        <li><b>Composer + PHPUnit : Tests</b> in <code>/tests</code> folder outside
-                            <code>/public_html</code> folder, not reachable in <code>localhost</code>
-                        </li>
-
+                        <li><b>Monolog - Log to console</b></li>
+                        <li><b>Monolog - Log to file</b></li>
+                        <li><b>Monolog - Log using processor.</b>
+                            Default/custom processors are used to include information in log entries such as client’s IP, browser, etc.</li>
+                        <li><b>Monolog - Log to email</b></li>
+                        <li><b>Monolog - Log to MySQL database</b></li>
+                        <li><b>Monolog - Log to AWS database</b></li>
+                        <li><b>Monolog - Log to Chrome browser</b></li>
                     </ul>
                 </h3>
             </div>
