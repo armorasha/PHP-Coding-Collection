@@ -37,14 +37,8 @@
 
     <?php
     // autoloading all the user-defines classes for the project
-    require_once __DIR__ . '/../vendor/autoload.php';
-
-    // if (!class_exists('Coding_Exercises\AddNums'))
-    //     die('There is no hope!');
-
-    // if (class_exists('Coding_Exercises\AddNums'))
-    //     echo ('There is hope!');
-
+    // use $_SERVER['DOCUMENT_ROOT'] instead of __DIR__
+    require_once $_SERVER['DOCUMENT_ROOT'] . '/../vendor/autoload.php';
     ?>
 
     <!-- background of code jpg -->
