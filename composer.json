@@ -1,7 +1,8 @@
 {
     "autoload": {
         "psr-4": {
-            "Coding_Exercises\\": "public_html/2_classes_folder/"
+            "Coding_Exercises\\": "public_html/2_classes_folder/",
+            "DI_Interfaces_Exercises\\": "public_html/5_DI_interfaces/"
         }
     },
     "autoload-dev": {
