@@ -212,7 +212,6 @@
                 More info on this exercise at:
                 <code>C:\Users\000930322\Downloads\PHP\PHP Summary.docx </code>
             </h3>
-
         </div>
 
 
@@ -258,21 +257,22 @@
             <div class="my-5">
                 <h3 class="text-black-50">
                     <ul class="list-style">
-                        <li><a href="5_DI_interfaces">DI / Interfaces : store_page.php</a><br></li>
-                        <li><b>Composer + PHPUnit : Tests</b> in <code>/tests</code> folder outside
-                            <code>/public_html</code> folder, not reachable in <code>localhost</code>
-                        </li>
-
+                        <li><a href="5_DI_interfaces">DI / Interfaces : store_page.php</a></li>
                     </ul>
+                    <h5>
+                        <code>Page: store_page.php</code> decides which implementation to use: <code>GoogleMaps or OpenStreetMap</code><br>
+                        ↓ uses ↓<br>
+                        <code>Class: StoreService</code><br>
+                        ↓ uses ↓<br>
+                        <code>Interface: GeoLocationService</code> (has 2 Implementations: <code>GoogleMaps class, OpenStreetMap class</code>)<br><br>
+                    </h5>
+                </h3>
+
+                <h3 class="text-black-50">
+                    More info on this exercise at:
+                    <code>C:\Users\000930322\Downloads\PHP\PHP Summary.docx </code>
                 </h3>
             </div>
-
-
-
-            <h3 class="text-black-50">
-                More info on this exercise at:
-                <code>C:\Users\000930322\Downloads\PHP\PHP Summary.docx </code>
-            </h3>
         </div>
 
 
