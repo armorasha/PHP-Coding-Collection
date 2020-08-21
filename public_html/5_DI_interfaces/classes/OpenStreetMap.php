@@ -11,13 +11,13 @@ class OpenStreetMap implements GeoServiceInterface
     public function getCoordinatesFromAddress($address)
     {
         // Method1 implementation calls OpenStreetMap webservice
-        echo "<b>OpenStreetMap:</b> CoordinatesFromAddress is <b>[100.98, 200.87]</b>" . "\n";
+        return "From OpenStreetMap- CoordinatesFromAddress is <b>[100.98, 200.87]</b>" . "\n";
     }
 
     // Method: 2
     public  function getAddressFromCoordinates($coordinate)
     {
         // Method2 implementation calls OpenStreetMap webservice
-        echo "<b>OpenStreetMap:</b> AddressFromCoordinates is <b>101, South rd, Moana.</b>" . "\n";
+        return "From OpenStreetMap- AddressFromCoordinates is <b>101, South rd, Moana.</b>" . "\n";
     }
 }
