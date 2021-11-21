@@ -7,4 +7,4 @@
 - Monolog logging to: file, console, processor
 - PHPUnit testing
 
-![Alt Text]()
+![Alt Text](https://github.com/armorasha/PHP-Coding-Collection/blob/master/public_html/img/css%20animation2.gif)
